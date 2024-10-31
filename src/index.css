@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4{
+    font-family: "Electrolize", sans-serif;
+}
+
+:root{
+    --primary: #333333;
+    --secondary: #eeeeeefc;
+    --accent: #fd0202;
+}
+
+body{
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.bg-primaryC{
+    background-color: var(--primary);
+}
+
+.text-secondaryC{
+    color: var(--secondary);
+}
+
+.text-accentC{
+    color: var(--accent);
+}
+
+.bg-secondaryC{
+    color: var(--secondary);
+}
+
+.navbar{
+    height: 70px;
+}
+
+.nav-link{
+    color: var(--secondary);
+}
+
+.nav-link:hover{
+    color: var(--accent);
+}
